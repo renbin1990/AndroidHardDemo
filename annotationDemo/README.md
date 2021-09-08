@@ -3,7 +3,8 @@
 
 使用 @interface 定义注解时，意味着它实现了 java.lang.annotation.Annotation 接口，即该注解就是一个Annotation。
 
-@Target 对应参数说明
+###Target 对应参数说明
+
     package java.lang.annotation;
     public enum ElementType {
         TYPE,               /* 类、接口（包括注释类型）或枚举声明  */
@@ -16,7 +17,8 @@
         PACKAGE             /* 包声明  */
     }
 
-@Retention 对应参数说明（注解执行作用域）
+###Retention 对应参数说明（注解执行作用域）
+
     package java.lang.annotation;
     public enum RetentionPolicy {
         SOURCE,            /* Annotation信息仅存在于编译器处理期间，编译器处理完之后就没有该Annotation信息了  */
@@ -24,7 +26,8 @@
         RUNTIME            /* 编译器将Annotation存储于class文件中，并且可由JVM读入 */
     }
 
-@APT技术自动查找控件，创建找控件类
+### APT技术自动查找控件，创建找控件类
+
     1.创建查找控件注解类BindView
     2.导入代码生成相关包
         dependencies {
@@ -38,5 +41,5 @@
     5.创建页面绑定类XBButterknife，通过传入acticity，反射查找类名+_ViewBinding找到对应生成代码类，去绑定Activity
     6.页面使用
 
-@动态设置点击事件
-参考annotation_click 
+###动态设置点击事件
+    参考annotation_click 
