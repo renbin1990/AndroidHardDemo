@@ -21,6 +21,7 @@
       <module name="AndroidHardDemo.annotation_click" target="11" />
       <module name="AndroidHardDemo.annotationclick" target="11" />
       <module name="AndroidHardDemo.app" target="11" />
+      <module name="AndroidHardDemo.mvvmkotlindemo" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

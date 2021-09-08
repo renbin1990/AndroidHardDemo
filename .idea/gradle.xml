@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/annotation_click" />
             <option value="$PROJECT_DIR$/annotation_compiler" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mvvmkotlindemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
