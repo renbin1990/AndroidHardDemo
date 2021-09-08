@@ -6,10 +6,13 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 单个参数注解
+ * 多个参数注解
  */
-@Target(ElementType.FIELD)
-@Retention(RetentionPolicy.SOURCE)
-public @interface BindView {
-    int value();
+@Target({ElementType.FIELD,ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface BindViewOne {
+    int id();
+    String value();
 }
+
+

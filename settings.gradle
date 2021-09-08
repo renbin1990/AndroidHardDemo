@@ -9,3 +9,5 @@ dependencyResolutionManagement {
 rootProject.name = "AndroidHardDemo"
 include ':app'
 include ':annotationDemo'
+include ':annotation_compiler'
+include ':annotation_click'
